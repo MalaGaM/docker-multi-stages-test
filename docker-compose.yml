@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  multi-stages:
+    build: 
+      context: .
+      args:
+        - VAR1=CONTENT5
+    environment:
+      VAR2: CONTENT4
